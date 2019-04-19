@@ -12,6 +12,12 @@ hello()
 head(fasta)
 head(fastq)
 head(phred)
+
+###
+out = hamming_filter(c("ATTCG", "ATTCA", "AAAAA", "AATAA"), "ATTCG")
+out == c("ATTCA", "ATTCG")
+
+### help file
 ?get_seq_fasta
 
 ### record the environment and exit
