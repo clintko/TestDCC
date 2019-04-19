@@ -9,7 +9,9 @@ library("BarcodeMatcher")
 
 ### try some functions
 hello()
-
+head(fasta)
+head(fastq)
+head(phred)
 
 ### record the environment and exit
 sessionInfo()
