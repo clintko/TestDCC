@@ -5,6 +5,8 @@ myCRAN <-'http://archive.linux.duke.edu/cran/'
 #devtools::install_github("clintko/TestDCCRpkg")
 #library("TestDCCRpkg")
 
-print("HELLO")
+for (x in 1:10){print(x)}
 
 sessionInfo()
+
+q(save="no")
