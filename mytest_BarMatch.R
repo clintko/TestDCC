@@ -12,6 +12,7 @@ hello()
 head(fasta)
 head(fastq)
 head(phred)
+?get_seq_fasta
 
 ### record the environment and exit
 sessionInfo()
