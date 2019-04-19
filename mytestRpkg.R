@@ -9,6 +9,9 @@ library("TestDCCRpkg")
 
 ### try some functions
 hello()
+print(head(reads))
+print(head(barcodes))
+print(phreds[1:3, 1:3])
 
 ### record the environment and exit
 sessionInfo()
